@@ -23,21 +23,16 @@ featured_image: /images/social.jpg
 		{% for post in paginator.posts %}
 
 		<div class="blog-post">
+			
+			<div class="blog-post__content">
+			<h2 class="blog-post__title">{{ post.title }}</h2>
+			<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+			<p { post.content}</p>
 
-			<a class="blog-post__link" href="{{ post.url | relative_url }}">
+		
+			</div>
 
-				<div class="blog-post__image">
-					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
-				</div>
-
-				<div class="blog-post__content">
-					<div class="blog-post__info">
-						<h2 class="blog-post__title">{{ post.title }}</h2>
-						<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-					</div>
-				</div>
-
-			</a>
+			
 
 		</div>
 
