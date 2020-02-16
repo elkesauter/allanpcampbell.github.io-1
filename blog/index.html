@@ -22,7 +22,7 @@ featured_image: /images/social.jpg
 
 		{% for post in paginator.posts %}
 
-		<article class="blog-post">
+		<div class="blog-post">
 
 			<a class="blog-post__link" href="{{ post.url | relative_url }}">
 
@@ -39,7 +39,7 @@ featured_image: /images/social.jpg
 
 			</a>
 
-		</article>
+		</div>
 
 		{% endfor %}
 
