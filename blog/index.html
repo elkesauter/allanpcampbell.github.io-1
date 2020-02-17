@@ -19,7 +19,6 @@ featured_image: /images/aaa-front-min.jpg
 		<br>
 		<img src="/images/aaa-front-min.jpg">
 		<br>
-		<br>
 		<p>Below you can find the blog posts for our 32 cycling days!</p>
 		<br>
 		<br>
@@ -35,17 +34,19 @@ featured_image: /images/aaa-front-min.jpg
 		{% for post in paginator.posts %}
 
 		<article class="blog-post">
-				<div class="blog-post__content">
-					<div class="blog-post__info">
-						<h2 class="blog-post__title">{{ post.title }}</h2>
-						<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-					</div>
-				</div>
-			
+
 			<a class="blog-post__link" href="{{ post.url | relative_url }}">
 
 				<div class="blog-post__image">
 					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+				</div>
+
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">{{ post.title }}</h2>
+						<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+						
+					</div>
 				</div>
 
 			</a>
