@@ -8,7 +8,7 @@ featured_image: 'images/day 33-g-min.jpg'
 After BCN we got reunited with Elke's family and Allan's youngest brother and wife. We did a complot to celebrate the entry to new year and decade in the EU and say goodbye to the old continent in Portugal 🥂🥳. Pure good old family time!
 
 <div class="gallery" data-columns="1">
-	<img src="/images/day 33-f-min.jpg">
+	<img src="/images/day 33-f-min.jpeg">
 </div>	
 
 The reason we write this message today is because yesterday was the real trip end. Yesterday we flew from Madrid to Costa Rica, following what our ancestors had done a while back. This is not only the end but it is why it all started: to bring Lupe to Madrid as she can only fly with Iberia to Costa Rica. We have now arrived to the tropics!
