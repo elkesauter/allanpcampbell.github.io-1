@@ -2,7 +2,7 @@
 title: 'Arrival in Costa Rica-the real end'
 date: 2020-01-07 00:00:00
 description: The aftermath from cycling NL to BCN.
-featured_image: 'images/day 1-a.jpg'
+featured_image: 'images/day 33-g.jpg'
 ---
 
 After BCN we got reunited with Elke's family and Allan's youngest brother and wife. We did a complot to celebrate the entry to new year and decade in the EU and say goodbye to the old continent in Portugal 🥂🥳. Pure good old family time!
@@ -17,4 +17,6 @@ Cheers from the garden and strong beats 💓 to all!
 
 Elke Allan Paco Lupe 🚶‍♀🚶‍♂👶🐶
 
+<div class="gallery" data-columns="3">
+	<img src="/images/day 33-g-min.jpg">
 ## --The End --
